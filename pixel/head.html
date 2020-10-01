@@ -5,7 +5,7 @@
     if (lomadeeEventId && lomadeeAdvertiserId) {
       var lomadeeTag = document.createElement("script");
       lomadeeTag.type = "text/javascript";
-      lomadeeTag.src = "//secure.lomadee.com/a/{{settings.lomadeeAdvertiserId}}.js";
+      lomadeeTag.src = "//secure.lomadee.com/vtex/{{settings.lomadeeAdvertiserId}}.js";
       document.getElementsByTagName("head")[0].appendChild(lomadeeTag);
     }
     window.lomadeeEventId = lomadeeEventId;
